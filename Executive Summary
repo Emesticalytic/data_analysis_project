@@ -1,0 +1,165 @@
+# Executive Summary
+## Data Analysis Project — R Portfolio
+**Period:** September to December 2024 | **Records:** 20 sales transactions | **Tool:** R
+
+---
+
+## Key Performance Indicators
+
+| Metric | Value |
+|---|---|
+| Total Revenue | £2,717 |
+| Total Sales Transactions | 20 |
+| Active Customers | 14 |
+| Churned Customers | 1 (6.7%) |
+| Order Delivery Rate | 80% |
+| Products Analysed | 15 |
+| Employees | 15 |
+
+---
+
+## Revenue Analysis
+
+### Monthly Revenue Trend
+
+Revenue grew from September through October, with October recording the peak. November saw a slight decrease due to orders entering Processing and Pending status rather than completing as Delivered.
+
+| Month | Transactions | Revenue | Avg Sale |
+|---|---|---|---|
+| September 2024 | 6 | £782.92 | £130.49 |
+| October 2024 | 7 | £1,109.92 | £158.56 |
+| November 2024 | 7 | £824.84 | £117.83 |
+| **TOTAL** | **20** | **£2,717.68** | **£135.88** |
+
+October was the strongest month — **41% above the September baseline**.
+
+### Top 5 Products by Revenue
+
+| Rank | Product | Revenue | Category |
+|---|---|---|---|
+| 1 | Ergonomic Office Chair | £554.98 | Office |
+| 2 | Standing Desk (Electric) | £474.99 | Office |
+| 3 | Wireless Bluetooth Headphones | £404.97 | Electronics |
+| 4 | USB-C Laptop Charging Hub | £224.95 | Electronics |
+| 5 | Project Management Software | £199.99 | Software |
+
+The **Office category** dominates revenue, accounting for over 37% of total sales.
+
+---
+
+## Customer Analysis
+
+### Customer Segmentation by Tier
+
+| Tier | Customers | Avg Loyalty Points | Status |
+|---|---|---|---|
+| Platinum | 2 | 5,000 | Priority retention |
+| Gold | 3 | 2,917 | Upsell opportunity |
+| Silver | 5 | 1,160 | Loyalty growth |
+| Bronze | 5 | 152 | Engagement needed |
+
+Platinum and Gold customers represent **33% of the customer base** but drive the majority of total revenue — a classic Pareto distribution.
+
+### Top 3 Customers by Lifetime Value
+
+| Customer | Tier | City | Lifetime Spend |
+|---|---|---|---|
+| Emily Richardson | Platinum | London | Highest |
+| Daniel Osei | Platinum | Manchester | Second |
+| Amelia Thornton | Gold | Edinburgh | Third |
+
+---
+
+## Churn and Risk Analysis
+
+One customer has churned — **Patricia Kimani** (Bronze tier, Coventry) — representing a **6.7% churn rate**.
+
+Risk scoring across the active customer base produced the following distribution:
+
+| Risk Level | Customers | Score Range | Recommended Action |
+|---|---|---|---|
+| Critical | 1 | 80-100 | Urgent call + 50% discount |
+| High | 2 | 60-79 | 20% discount voucher |
+| Medium | 4 | 40-59 | Double loyalty points |
+| Low | 5 | 20-39 | Monthly newsletter |
+| Very Low | 3 | 0-19 | No action needed |
+
+> **3 customers require immediate intervention** before they follow the churned customer out of the business.
+
+---
+
+## Order Status Breakdown
+
+| Status | Count | Percentage |
+|---|---|---|
+| Delivered | 12 | 80.0% |
+| Processing | 1 | 6.7% |
+| Pending | 1 | 6.7% |
+| Cancelled | 1 | 6.7% |
+
+The **80% delivery rate** is healthy. The 3 non-delivered orders at period end represent a potential £350+ in delayed revenue.
+
+---
+
+## Stock Alert
+
+Products flagged as needing reorder based on current stock vs reorder threshold:
+
+| Status | Products |
+|---|---|
+| Reorder Now | Standing Desk (Electric) — 18 units vs threshold of 5 |
+| Monitor | Ergonomic Office Chair — 35 units vs threshold of 5 |
+
+Both flagged products are the **top 2 revenue generators** — a stockout would directly impact revenue.
+
+---
+
+## Recommendations
+
+### Immediate Actions (This Week)
+- Contact the **3 Critical and High risk customers** with targeted discount offers to prevent further churn
+- Confirm restock order for **Standing Desk (Electric)** — current stock 18 units, high sell-through rate
+- Assign dedicated account management to the **2 Platinum customers**
+
+### Medium Term Actions (Next 30 Days)
+- Launch a **Bronze-to-Silver upgrade campaign** — double points month for the 5 Bronze customers
+- Investigate the **November fulfilment bottleneck** — 3 orders stuck in Processing/Pending at month end
+- Expand the **Electronics catalogue** — highest average order value per transaction
+
+### Strategic Actions (Next Quarter)
+- Set a target to move **3 Silver customers** to Gold tier through the loyalty programme
+- Introduce a **product bundling strategy** combining Electronics + Accessories (e.g. Headphones + Charging Pad)
+- Build a proper **ML churn model** once the dataset reaches 100+ customer records
+
+---
+
+## Data Quality
+
+All data quality checks passed with zero issues found:
+
+| Check | Result |
+|---|---|
+| NULL values | 0 found |
+| Duplicate rows | 0 found |
+| Negative salaries | 0 found |
+| Invalid profit margins | 0 found |
+| Delivered but unpaid orders | 0 found |
+| Shipped before order date | 0 found |
+
+> **Note:** The predictive analysis uses rule-based risk scoring rather than a statistical ML model because the dataset has only 15 customers. A minimum of 100+ records is required for meaningful model training. The rule-based approach is the professionally correct choice for this data size.
+
+---
+
+## Conclusion
+
+The business is performing well with an 80% delivery rate and strong October revenue. 
+The primary risk is concentrated in the Bronze customer tier where engagement is low and churn probability is highest.
+
+**Three immediate actions**
+— contacting at-risk customers, 
+- restocking top products, 
+- and activating a Bronze loyalty campaign — could prevent further churn and accelerate revenue growth into Q1 2025.
+
+---
+
+*Analysis produced using R | data_analysis_project | 2026*
