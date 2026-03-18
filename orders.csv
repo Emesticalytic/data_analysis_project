@@ -1,0 +1,16 @@
+order_id,customer_id,employee_id,order_date,order_status,payment_status,shipping_cost,discount_amount
+1,1,9,2024-09-05,Delivered,Paid,5.99,0
+2,2,9,2024-09-12,Delivered,Paid,5.99,10
+3,3,13,2024-09-20,Delivered,Paid,7.99,0
+4,4,9,2024-10-01,Delivered,Paid,5.99,5
+5,5,13,2024-10-08,Delivered,Paid,5.99,0
+6,6,9,2024-10-15,Delivered,Paid,5.99,0
+7,7,13,2024-10-22,Delivered,Paid,7.99,0
+8,8,9,2024-11-03,Delivered,Paid,7.99,0
+9,1,13,2024-11-10,Delivered,Paid,0,20
+10,2,9,2024-11-18,Delivered,Paid,0,15
+11,9,13,2024-11-25,Delivered,Paid,5.99,0
+12,10,9,2024-12-02,Delivered,Paid,5.99,0
+13,11,13,2024-12-10,Processing,Paid,5.99,0
+14,12,9,2024-12-15,Pending,Unpaid,5.99,0
+15,3,13,2024-12-18,Cancelled,Refunded,0,0

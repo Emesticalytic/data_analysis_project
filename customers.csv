@@ -1,0 +1,16 @@
+customer_id,first_name,last_name,city,customer_tier,loyalty_points,is_active,signup_date
+1,Emily,Richardson,London,Platinum,5200,TRUE,2020-01-15
+2,Daniel,Osei,Manchester,Platinum,4800,TRUE,2020-03-22
+3,Amelia,Thornton,Edinburgh,Gold,3100,TRUE,2021-02-10
+4,Benjamin,Owusu,Birmingham,Gold,2900,TRUE,2021-06-30
+5,Charlotte,Yeboah,Leeds,Gold,2750,TRUE,2021-08-17
+6,George,Adeyemi,London,Silver,1500,TRUE,2022-01-05
+7,Hannah,Fitzgerald,Bristol,Silver,1350,TRUE,2022-03-19
+8,Isaac,Mensah,Cardiff,Silver,1100,TRUE,2022-07-08
+9,Jasmine,Blackwood,Nottingham,Silver,980,TRUE,2022-09-14
+10,Kevin,Asante,Liverpool,Silver,870,TRUE,2022-11-01
+11,Laura,Simmons,Sheffield,Bronze,320,TRUE,2023-04-12
+12,Michael,Darko,Newcastle,Bronze,210,TRUE,2023-06-25
+13,Natalie,Hughes,Leicester,Bronze,150,TRUE,2023-09-03
+14,Oscar,Frimpong,Southampton,Bronze,90,TRUE,2024-01-17
+15,Patricia,Kimani,Coventry,Bronze,0,FALSE,2024-03-10

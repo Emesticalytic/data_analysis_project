@@ -1,0 +1,40 @@
+> # Base folder
+> base <- "~/data_analysis_project"
+> 
+> # Create folders
+> dir.create(file.path(base, "data/raw"), recursive = TRUE, showWarnings = FALSE)
+> dir.create(file.path(base, "data/clean"), recursive = TRUE, showWarnings = FALSE)
+> dir.create(file.path(base, "scripts"), showWarnings = FALSE)
+> dir.create(file.path(base, "plots"), showWarnings = FALSE)
+> dir.create(file.path(base, "reports"), showWarnings = FALSE)
+
+# 📁 Run this ONCE to build your entire project folder
+# scripts/01_setup.R
+
+# ── Create all folders ──────────────────────────────────────────────────────
+folders <- c(
+  "data_analysis_project/data/raw",
+  "data_analysis_project/data/clean",
+  "data_analysis_project/scripts",
+  "data_analysis_project/plots",
+  "data_analysis_project/reports"
+)
+
+for (folder in folders) {
+  dir.create(folder, recursive = TRUE, showWarnings = FALSE)
+  cat("✅ Created:", folder, "\n")
+}
+
+# ── Install required packages ───────────────────────────────────────────────
+packages <- c("tidyverse", "ggplot2", "dplyr", "readr", 
+              "scales",    "corrplot", "caret", "knitr")
+
+for (pkg in packages) {
+  if (!require(pkg, character.only = TRUE)) {
+    install.packages(pkg)
+    library(pkg, character.only = TRUE)
+    cat("✅ Installed and loaded:", pkg, "\n")
+  } else {
+    cat("✅ Already installed:", pkg, "\n")
+  }
+}

@@ -1,0 +1,16 @@
+employee_id,first_name,last_name,department,job_title,salary,employment_type,status,office_location,marital_status,manager_id,hire_date
+1,James,Hargreaves,Executive,CEO,95000,Full-Time,Active,London HQ,Married,NA,2018-03-15
+2,Sophia,Okafor,Finance,CFO,88000,Full-Time,Active,London HQ,Single,NA,2019-01-20
+3,Marcus,Patel,Technology,CTO,91000,Full-Time,Active,Manchester,Divorced,NA,2019-07-11
+4,Rachel,Thompson,Sales,Head of Sales,72000,Full-Time,Active,London HQ,Married,1,2020-02-28
+5,David,Mensah,Human Resources,Head of HR,68000,Full-Time,Active,London HQ,Civil Partner,1,2020-06-01
+6,Priya,Nair,Technology,Engineering Manager,78000,Full-Time,Active,Manchester,Single,3,2021-03-15
+7,Oliver,Bennett,Finance,Finance Manager,70000,Full-Time,Active,London HQ,Separated,2,2021-09-01
+8,Amara,Diallo,Technology,Senior Data Analyst,58000,Full-Time,Active,Manchester,Married,6,2022-01-10
+9,Liam,Walsh,Sales,Sales Executive,45000,Full-Time,Active,Birmingham,Single,4,2022-04-19
+10,Fatima,Al-Hassan,Human Resources,HR Specialist,42000,Full-Time,Active,London HQ,Married,5,2022-07-05
+11,Noah,Clarke,Technology,Junior Developer,36000,Full-Time,Active,Manchester,Single,6,2023-02-20
+12,Isla,Ferguson,Technology,Data Analyst,40000,Full-Time,On Leave,Manchester,Civil Partner,6,2023-05-15
+13,Kwame,Asante,Sales,Sales Executive,44000,Part-Time,Active,Birmingham,Divorced,4,2023-08-01
+14,Chloe,Whitfield,Finance,Financial Analyst,47000,Full-Time,Active,London HQ,Single,7,2024-01-08
+15,Tariq,Hussain,Technology,IT Consultant,55000,Contract,Active,Remote,Separated,3,2024-03-25

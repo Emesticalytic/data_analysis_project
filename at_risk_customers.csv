@@ -1,0 +1,16 @@
+customer_id,first_name,last_name,customer_tier,loyalty_points,risk_score,recommended_offer
+15,Patricia,Kimani,Bronze,0,0.9,Double Loyalty Points
+11,Laura,Simmons,Bronze,320,0.7,Double Loyalty Points
+12,Michael,Darko,Bronze,210,0.7,Double Loyalty Points
+13,Natalie,Hughes,Bronze,150,0.7,Double Loyalty Points
+14,Oscar,Frimpong,Bronze,90,0.7,Double Loyalty Points
+9,Jasmine,Blackwood,Silver,980,0.5,Double Loyalty Points
+10,Kevin,Asante,Silver,870,0.5,Double Loyalty Points
+1,Emily,Richardson,Platinum,5200,0.2,No Action Needed
+2,Daniel,Osei,Platinum,4800,0.2,No Action Needed
+3,Amelia,Thornton,Gold,3100,0.2,No Action Needed
+4,Benjamin,Owusu,Gold,2900,0.2,No Action Needed
+5,Charlotte,Yeboah,Gold,2750,0.2,No Action Needed
+6,George,Adeyemi,Silver,1500,0.2,No Action Needed
+7,Hannah,Fitzgerald,Silver,1350,0.2,No Action Needed
+8,Isaac,Mensah,Silver,1100,0.2,No Action Needed

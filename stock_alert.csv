@@ -1,0 +1,16 @@
+product_id,product_name,category,unit_price,cost_price,stock_quantity,reorder_level,stock_status,profit_per_unit
+7,Standing Desk (Electric),Office,499.99,230,18,5,SUFFICIENT,269.99
+6,Ergonomic Office Chair,Office,299.99,140,35,5,SUFFICIENT,159.99
+4,4K Webcam,Electronics,119.99,55,60,10,SUFFICIENT,64.99
+14,Monitor Privacy Screen 24,Accessories,39.99,14,70,10,SUFFICIENT,25.990000000000002
+5,Mechanical Keyboard,Electronics,79.99,34,85,15,SUFFICIENT,45.989999999999995
+2,Smart Home Speaker,Electronics,89.99,41,95,15,SUFFICIENT,48.989999999999995
+1,Wireless Bluetooth Headphones,Electronics,149.99,72,120,20,SUFFICIENT,77.99000000000001
+10,Desk Organiser Set,Office,24.99,9.5,150,20,SUFFICIENT,15.489999999999998
+15,Wireless Charging Pad,Accessories,24.99,8,180,25,SUFFICIENT,16.99
+3,USB-C Laptop Charging Hub,Electronics,49.99,18.5,200,30,SUFFICIENT,31.490000000000002
+13,Laptop Sleeve 15,Accessories,19.99,6.5,250,30,SUFFICIENT,13.489999999999998
+8,A4 Printer Paper,Office,6.99,2.5,500,50,SUFFICIENT,4.49
+9,Ballpoint Pen Set,Office,4.99,1.2,800,80,SUFFICIENT,3.79
+11,Project Management Software,Software,199.99,40,999,0,SUFFICIENT,159.99
+12,Cloud Backup Solution,Software,79.99,15,999,0,SUFFICIENT,64.99

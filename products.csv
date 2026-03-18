@@ -1,0 +1,16 @@
+product_id,product_name,category,unit_price,cost_price,stock_quantity,reorder_level
+1,Wireless Bluetooth Headphones,Electronics,149.99,72,120,20
+2,Smart Home Speaker,Electronics,89.99,41,95,15
+3,USB-C Laptop Charging Hub,Electronics,49.99,18.5,200,30
+4,4K Webcam,Electronics,119.99,55,60,10
+5,Mechanical Keyboard,Electronics,79.99,34,85,15
+6,Ergonomic Office Chair,Office,299.99,140,35,5
+7,Standing Desk (Electric),Office,499.99,230,18,5
+8,A4 Printer Paper,Office,6.99,2.5,500,50
+9,Ballpoint Pen Set,Office,4.99,1.2,800,80
+10,Desk Organiser Set,Office,24.99,9.5,150,20
+11,Project Management Software,Software,199.99,40,999,0
+12,Cloud Backup Solution,Software,79.99,15,999,0
+13,Laptop Sleeve 15,Accessories,19.99,6.5,250,30
+14,Monitor Privacy Screen 24,Accessories,39.99,14,70,10
+15,Wireless Charging Pad,Accessories,24.99,8,180,25
